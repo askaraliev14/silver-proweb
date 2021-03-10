@@ -1,0 +1,51 @@
+@import 'fonts.css';
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+/* header */
+.header{
+  width: 1110px;
+  margin: 0 auto;
+  border: 1px solid #000;
+}
+/* navbar */
+.navbar{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar__logo{
+  padding: 50px;
+}
+.navbar__list{
+  display: flex;
+}
+.navbar__list a{
+  padding: 10px 4px 15px;
+  display: flex;
+  border-bottom: 2px solid transparent;
+  margin: 0px 19px ;
+  font-size: 18px;
+  line-height: 14px;
+  color: #bab9b9;
+}
+.navbar__list a:hover{
+  color: #4581b7;
+  border-bottom-color: inherit;
+}
+
+.header__img{
+  width: 100%;
+}
+
+.header__img img{
+  width: 100%;
+  object-fit: contain;
+}

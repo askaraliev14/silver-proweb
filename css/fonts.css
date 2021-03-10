@@ -1,0 +1,10 @@
+@font-face{
+  font-family: 'roboto';
+  font-weight: 400;
+  src: url(/fonts/Roboto-Regular.ttf) format('truetype');
+}
+@font-face{
+  font-family: 'roboto';
+  font-weight: 700;
+  src: url(/fonts/Roboto-Bold.ttf) format('truetype');
+}
