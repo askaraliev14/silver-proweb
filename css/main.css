@@ -12,7 +12,7 @@
 .header{
   width: 1110px;
   margin: 0 auto;
-  border: 1px solid #000;
+  border: 0px solid #000;
 }
 /* navbar */
 .navbar{
@@ -43,9 +43,80 @@
 
 .header__img{
   width: 100%;
+  margin-top: 50px;
 }
 
 .header__img img{
   width: 100%;
   object-fit: contain;
+}
+
+/* body */
+.body{
+  width: 100%;
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+}
+.body__center{
+  width: 1140px;
+  height: 550px;
+  border: 0px solid #000;
+  display: flex;
+  justify-content: space-between;
+}
+.left__content{
+  width: 730px;
+  height: 500px;
+  border: 0px solid #000;
+  margin: 15px;
+  background: #f0f0f0;
+  padding: 52px 95px 95px 40px;
+}
+.left__content h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: #4581b7;
+}
+.left__content p{
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #919191;
+  line-height: 1.5;
+}
+.right__content{
+  width: 350px;
+  height: 500px;
+  border: 0px solid #000;
+  margin: 15px;
+  background: #f0f0f0;
+  padding: 52px 40px;  
+}
+.right__content h2{
+  font-size: 20px;
+  font-weight: 700;
+  color: #4581b7;
+}
+.content__address{
+  margin-top: 25px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #919191;
+  line-height: 1.5;
+}
+
+.content__tel{
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #919191;
+  line-height: 1.5; 
+}
+.content__mail{
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #919191;
+  line-height: 1.5; 
 }
