@@ -120,3 +120,45 @@
   color: #919191;
   line-height: 1.5; 
 }
+/* footer */
+.footer{
+  width: 100%;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer__center{
+  width: 1140px;
+  height: 150px;
+  border: 0px solid #000;
+  display: flex;
+  justify-content: center;
+}
+.ft__content{
+  width: 1110px;
+  height: 150px;
+  background: #f0f0f0;
+  border: 0px solid #000;
+  display: flex;
+  justify-content: space-between;
+}
+.ft__logo{
+  display: flex;
+  margin: 15px 40px;
+}
+.ft__right{
+  margin: 40px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #919191;
+  line-height: 1.5;
+}
+.ft__tel{
+  font-size: 25px;
+  font-weight: 700;
+  color: #919191;
+  line-height: 1.5;
+}
+/* footer end */
